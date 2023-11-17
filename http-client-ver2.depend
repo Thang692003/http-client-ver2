@@ -71,3 +71,59 @@
 1700213324 c:\users\ngoho\onedrive\máy tính\http-client-ver2\httptcpclient.h
 	"tcpclient.h"
 
+1700209101 source:c:\users\dell\documents\http-client-ver2\cli.cpp
+	<iostream>
+	<sstream>
+	"cli.h"
+
+1700209101 c:\users\dell\documents\http-client-ver2\cli.h
+	<string>
+
+1700214707 source:c:\users\dell\documents\http-client-ver2\httptcpclient.cpp
+	"httptcpclient.h"
+	<iostream>
+
+1700214707 c:\users\dell\documents\http-client-ver2\httptcpclient.h
+	"tcpclient.h"
+
+1700209101 c:\users\dell\documents\http-client-ver2\tcpclient.h
+	"tcpsocket.h"
+
+1700209101 c:\users\dell\documents\http-client-ver2\tcpsocket.h
+	"socket.h"
+
+1700209101 c:\users\dell\documents\http-client-ver2\socket.h
+	<string>
+	<exception>
+
+1700209101 source:c:\users\dell\documents\http-client-ver2\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1700209101 source:c:\users\dell\documents\http-client-ver2\tcpclient.cpp
+	"tcpclient.h"
+	<iostream>
+	<fstream>
+
+1700209101 source:c:\users\dell\documents\http-client-ver2\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+	"tcpsocket.h"
+

@@ -7,7 +7,6 @@
 
 class HttpClientCLI : public CmdLineInterface {
 private:
-    HttpClientCLI client;
 public:
     HttpClientCLI();
     ~HttpClientCLI();
@@ -21,5 +20,6 @@ private:
     void doHelp(string cmd_argv[], int cmd_argc);
     void doQuit(string cmd_argv[], int cmd_argc);
 };
+HttpClientCLI client;
 
 #endif // HTTPCLI_H_INCLUDED
