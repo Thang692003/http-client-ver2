@@ -1,9 +1,11 @@
 #include <iostream>
+#include "httpcli.h"
 
 using namespace std;
 
-int main()
+int main(int argc, char* argv[])
 {
-    cout << "Hello world!" << endl;
+    HttpClientCLI cli;
+    cli.run(argv,argc);
     return 0;
 }

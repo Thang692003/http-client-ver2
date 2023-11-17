@@ -14,6 +14,9 @@
 				<Compiler>
 					<Add option="-g" />
 				</Compiler>
+				<Linker>
+					<Add option="-lws2_32" />
+				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/http-client-ver2" prefix_auto="1" extension_auto="1" />
@@ -32,7 +35,19 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="cli.cpp" />
+		<Unit filename="cli.h" />
+		<Unit filename="httpcli.cpp" />
+		<Unit filename="httpcli.h" />
+		<Unit filename="httptcpclient.cpp" />
+		<Unit filename="httptcpclient.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="socket.cpp" />
+		<Unit filename="socket.h" />
+		<Unit filename="tcpclient.cpp" />
+		<Unit filename="tcpclient.h" />
+		<Unit filename="tcpsocket.cpp" />
+		<Unit filename="tcpsocket.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

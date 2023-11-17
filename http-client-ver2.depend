@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1648535401 source:c:\users\ngoho\onedrive\máy tính\http-client-ver2\cli.cpp
+	<iostream>
+	<sstream>
+	"cli.h"
+
+1647603059 c:\users\ngoho\onedrive\máy tính\http-client-ver2\cli.h
+	<string>
+
+1648625513 source:c:\users\ngoho\onedrive\máy tính\http-client-ver2\echocli.cpp
+	"echocli.h"
+	<iostream>
+
+1648625496 c:\users\ngoho\onedrive\máy tính\http-client-ver2\echocli.h
+	"cli.h"
+	"tcpsocket.h"
+	"echotcpclient.h"
+
+1648537735 c:\users\ngoho\onedrive\máy tính\http-client-ver2\tcpsocket.h
+	"socket.h"
+
+1647662317 c:\users\ngoho\onedrive\máy tính\http-client-ver2\socket.h
+	<string>
+	<exception>
+
+1648625484 c:\users\ngoho\onedrive\máy tính\http-client-ver2\echotcpclient.h
+	"tcpclient.h"
+
+1650602751 c:\users\ngoho\onedrive\máy tính\http-client-ver2\tcpclient.h
+	"tcpsocket.h"
+
+1648625475 source:c:\users\ngoho\onedrive\máy tính\http-client-ver2\echotcpclient.cpp
+	"echotcpclient.h"
+	<iostream>
+
+1647662320 source:c:\users\ngoho\onedrive\máy tính\http-client-ver2\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1650602777 source:c:\users\ngoho\onedrive\máy tính\http-client-ver2\tcpclient.cpp
+	"tcpclient.h"
+	<iostream>
+	<fstream>
+
+1648538144 source:c:\users\ngoho\onedrive\máy tính\http-client-ver2\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+	"tcpsocket.h"
+
+1700213978 source:c:\users\ngoho\onedrive\máy tính\http-client-ver2\httptcpclient.cpp
+	"httptcpclient.h"
+	<iostream>
+
+1700213324 c:\users\ngoho\onedrive\máy tính\http-client-ver2\httptcpclient.h
+	"tcpclient.h"
+
