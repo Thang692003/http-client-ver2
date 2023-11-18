@@ -1,8 +1,8 @@
 THÀNH VIÊN NHÓM 2:
-- NGÔ HOÀNG LÂN - 0193766
-- PHẠM HẢI HƯNG - 0192666
-- ĐẶNG QUỐC ANH - 0178766
-- VŨ ĐỨC THẮNG - 0205066
+NGÔ HOÀNG LÂN - 0193766
+PHẠM HẢI HƯNG - 0192666
+ĐẶNG QUỐC ANH - 0178766
+VŨ ĐỨC THẮNG - 0205066
 HTTP Client Version 2
 1. Phát biểu bài toán:
 Xây dựng chương trình HTTP client để điểm danh và nộp bài qua mạng theo giao thức HTTP (Hypertext Transfer Protocol) 
