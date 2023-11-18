@@ -14,7 +14,7 @@ Xây dựng chương trình HTTP client để điểm danh và nộp bài qua m�
 - Chức năng nhập mã sinh viên từ bàn phím, sau đó upload tất cả file .CPP và .H trong thư mục hiện tại trên máy Client bằng cách gửi nhiều bản tin yêu cầu với phương thức (PUT) ở sử dụng chế độ KHÔNG duy trì kết nối (Non-persistance). Mỗi bản tin sẽ kèm URL chỉ đến đường dẫn thư mục tại Server có tên trùng với mã sinh viên. In kết quả từng bản tin phản hồi từ Server
 
   THÀNH VIÊN NHÓM:
-      NGÔ HOÀNG LÂN - 0193766
-      PHẠM HẢI HƯNG - 0192666
-      ĐẶNG QUỐC ANH - 0178766
-      VŨ ĐỨC THẮNG - 0205066
+      - NGÔ HOÀNG LÂN - 0193766
+      - PHẠM HẢI HƯNG - 0192666
+      - ĐẶNG QUỐC ANH - 0178766
+      - VŨ ĐỨC THẮNG - 0205066
