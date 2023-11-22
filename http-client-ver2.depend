@@ -127,3 +127,17 @@
 	<errno.h>
 	"tcpsocket.h"
 
+1700213785 source:c:\users\ngoho\onedrive\máy tính\http-client-ver2\main.cpp
+	<iostream>
+	"httpcli.h"
+
+1700622318 c:\users\ngoho\onedrive\máy tính\http-client-ver2\httpcli.h
+	"cli.h"
+	"tcpsocket.h"
+	"httptcpclient.h"
+
+1700622458 source:c:\users\ngoho\onedrive\máy tính\http-client-ver2\httpcli.cpp
+	"httpcli.h"
+	"httptcpclient.h"
+	<iostream>
+

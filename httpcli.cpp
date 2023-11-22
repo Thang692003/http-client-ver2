@@ -1,4 +1,5 @@
 #include "httpcli.h"
+#include "httptcpclient.h"
 #include <iostream>
 
 
@@ -118,6 +119,26 @@ void HttpClientCLI::doClose(string cmd_argv[], int cmd_argc)
     cout << "Da dong ket noi." << endl;
 }
 
+void HttpClientCLI::doQuit(string cmd_argv[], int cmd_argc)
+{
+    cout << "Quit" << endl;
+}
+
+void HttpClientCLI::doTurnIn(string cmd_argv[], int cmd_argc)
+{
+    cout << "Quit" << endl;
+}
+
+void HttpClientCLI::doUpload(string cmd_argv[], int cmd_argc)
+{
+    cout << "Quit" << endl;
+}
+
+void HttpClientCLI::doAttendace(string cmd_argv[], int cmd_argc)
+{
+    cout << "Quit" << endl;
+}
+
 /*
     echo  [msg]
     echo
@@ -155,6 +176,8 @@ void HttpClientCLI::doHelp(string cmd_argv[], int cmd_argc)
     cout << "- close                   Dong ket noi" << endl;
     cout << "- help                    Tro giup" << endl;
     cout << "- quit                    Ket thuc chuong trinh" << endl;
+    cout << "- attendace <MSV>          Diem danh" << endl;
+    cout << "- upload <file link>       upload bai tap" << endl;
 }
 
 
