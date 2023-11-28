@@ -2,9 +2,16 @@
 #include <iostream>
 
 
-HttpClientCLI::HttpClientCLI():CmdLineInterface("Echo Client>")
+HttpClientCLI::HttpClientCLI():CmdLineInterface("Http Client>")
 {
-    cout << "Http Client version 2.0" << endl;
+    cout << "\033[1;32m" << R"(
++======================================================================================+
+| |     | ___ ___  __     __ |   *  __      ___  \    / __  __   __ *  __     |   __   |
+| |_____|  |   |  |__)   /   |   | |_  |\ |  |    \  / |_  |__) (_  | /  \ |\ |    _)  |
+| |     |  |   |  |      \__ |__ | |__ | \|  |     \/  |__ |  \ __) | \__/ | \|   /__  |
+| |     |  |   |  |                                                        |           |
++======================================================================================+
+    )" << endl;
     cout << "Nhap lenh help de duoc tro giup" << endl;
     initCmd();
     cmdDefaulID = 0;
@@ -19,10 +26,21 @@ void HttpClientCLI::initCmd()
    // add code here
    addCmd("open",CLI_CAST(&HttpClientCLI::doOpen));
    addCmd("close",CLI_CAST(&HttpClientCLI::doClose));
-   addCmd("echo",CLI_CAST(&HttpClientCLI::doEcho));
+   //addCmd("echo",CLI_CAST(&HttpClientCLI::doEcho));
    addCmd("get",CLI_CAST(&HttpClientCLI::doGet));
    addCmd("help",CLI_CAST(&HttpClientCLI::doHelp));
    addCmd("post",CLI_CAST(&HttpClientCLI::doPost));
+}
+
+void HttpClientCLI::doHelp(string cmd_argv[], int cmd_argc)
+{
+    cout << "Please use the following commands:" << endl;
+    cout << "- open  hostname [port]    Mo ket noi den Echo server" << endl;
+    cout << "- close                    Dong ket noi" << endl;
+    cout << "- help                     Tro giup" << endl;
+    cout << "- quit                     Ket thuc chuong trinh" << endl;
+    cout << "- get [URL]                Su dung method GET" << endl;
+    cout << "- post [URL] <MSV>         Su dung method POST" << endl;
 }
 
 /*
@@ -152,6 +170,7 @@ void HttpClientCLI::doClose(string cmd_argv[], int cmd_argc)
     echo
 */
 
+/*
 void HttpClientCLI::doEcho(string cmd_argv[], int cmd_argc)
 {
     if(cmd_argc==2)
@@ -176,17 +195,8 @@ void HttpClientCLI::doEcho(string cmd_argv[], int cmd_argc)
         cout << "Invalid arguments" << endl;
     }
 }
+*/
 
-void HttpClientCLI::doHelp(string cmd_argv[], int cmd_argc)
-{
-    cout << "Please use the following commands:" << endl;
-    cout << "- open  hostname [port]    Mo ket noi den Echo server" << endl;
-    cout << "- echo [msg]               Gui va nhan ban tin" << endl;
-    cout << "- close                    Dong ket noi" << endl;
-    cout << "- help                     Tro giup" << endl;
-    cout << "- quit                     Ket thuc chuong trinh" << endl;
-    cout << "- get [URL]                Su dung method GET" << endl;
-    cout << "- post [URL] <MSV>         Su dung method POST" << endl;
-}
+
 
 

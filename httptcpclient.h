@@ -8,7 +8,7 @@ class HttpTcpClientCLI: public TcpClient
 private:
 
 public:
-    bool echo(const string& msg);
+    //bool echo(const string& msg);
     bool getHTTP(const string& url);
     bool postHTTP(const string& url, const string& msv);
 };
