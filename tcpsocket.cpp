@@ -16,6 +16,7 @@ typedef void raw_type;       // Type used for raw data on this platform
 
 #include <cstring>
 #include <errno.h>             // For errno
+#include <string> 
 #include "tcpsocket.h"
 void fillAddr(const string&,unsigned short, sockaddr_in&);
 
